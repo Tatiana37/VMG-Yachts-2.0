@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VMG Yacht - Redefining the Future of Multihull Yachting</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h1>VMG</h1>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active">HOME</a>
+                <a href="#yacht" class="nav-link">THE YACHT</a>
+                <a href="#design" class="nav-link">DESIGN PHILOSOPHY</a>
+                <a href="#manufacture" class="nav-link">MANUFACTURE</a>
+                <a href="#features" class="nav-link">FEATURES</a>
+                <a href="#configuration" class="nav-link">CONFIGURATION</a>
+                <a href="#performance" class="nav-link">PERFORMANCE</a>
+                <a href="#gallery" class="nav-link">GALLERY</a>
+                <a href="#about" class="nav-link">ABOUT</a>
+                <a href="#contact" class="nav-link">CONTACT</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-background">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">REDEFINING THE<br>FUTURE OF MULTIHULL<br>YACHTING</h1>
+            <div class="hero-buttons">
+                <button class="btn-primary" onclick="scrollToSection('configuration')">CONFIGURE YOUR YACHT</button>
+                <button class="btn-secondary" onclick="scrollToSection('design')">EXPLORE THE DESIGN</button>
+            </div>
+        </div>
+        
+        <!-- Sneak Peek Section -->
+        <div class="sneak-peek">
+            <h2>Sneak Peek</h2>
+            <p>Overview of our groundbreaking model</p>
+            <div class="preview-cards">
+                <div class="preview-card" onclick="scrollToSection('yacht')">
+                    <div class="card-image yacht-preview"></div>
+                    <h3>THE YACHT</h3>
+                    <p>Overview of our revolutionary multihull design</p>
+                </div>
+                <div class="preview-card" onclick="scrollToSection('design')">
+                    <div class="card-image design-preview"></div>
+                    <h3>DESIGN PHILOSOPHY</h3>
+                    <p>Our innovative approach to luxury yachting</p>
+                </div>
+                <div class="preview-card" onclick="scrollToSection('manufacture')">
+                    <div class="card-image manufacture-preview"></div>
+                    <h3>MANUFACTURE</h3>
+                    <p>Crafting excellence through precision</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Yacht Section -->
+    <section id="yacht" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>The VMG 53</h2>
+                <p>A groundbreaking yacht that brings multiple industry-first features to market</p>
+            </div>
+            <div class="yacht-showcase">
+                <div class="yacht-render">
+                    <div class="render-placeholder">
+                        <p>Interactive 360° Yacht Render</p>
+                    </div>
+                </div>
+                <div class="yacht-specs">
+                    <h3>Key Specifications</h3>
+                    <div class="specs-grid">
+                        <div class="spec-item">
+                            <span class="spec-label">Length</span>
+                            <span class="spec-value">53 ft</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Beam</span>
+                            <span class="spec-value">28 ft</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Weight Range</span>
+                            <span class="spec-value">16-19 tons</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Capacity</span>
+                            <span class="spec-value">8-10 guests</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Material</span>
+                            <span class="spec-value">Carbon Fiber</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Operation</span>
+                            <span class="spec-value">Minimal Crew</span>
+                        </div>
+                    </div>
+                    <button class="btn-primary" onclick="scrollToSection('configuration')">Configure Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Design Philosophy Section -->
+    <section id="design" class="section dark-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Design Philosophy</h2>
+                <p>The story and ideology behind revolutionary design</p>
+            </div>
+            <div class="philosophy-content">
+                <div class="philosophy-text">
+                    <h3>Disruptive. Essential. Empowering.</h3>
+                    <p>Our design philosophy centers on creating vessels that empower owners with independence, performance, and innovation. We believe luxury yachting should be accessible to those who value self-reliance and cutting-edge technology.</p>
+                    <blockquote>
+                        "We're not just building yachts; we're redefining what it means to experience the ocean with complete autonomy and uncompromising performance."
+                        <cite>- VMG Design Team</cite>
+                    </blockquote>
+                </div>
+                <div class="design-timeline">
+                    <h3>From Concept to Reality</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h4>Concept</h4>
+                                <p>Initial vision for minimal-crew operation</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h4>Innovation</h4>
+                                <p>Industry-first features development</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h4>Refinement</h4>
+                                <p>Perfecting the balance of luxury and performance</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Manufacture Section -->
+    <section id="manufacture" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Manufacture</h2>
+                <p>Precision craftsmanship meets innovative materials</p>
+            </div>
+            <div class="manufacture-grid">
+                <div class="manufacture-item">
+                    <div class="manufacture-icon">🔬</div>
+                    <h3>Advanced Materials</h3>
+                    <p>Carbon fiber construction with sustainable composite materials for optimal strength-to-weight ratio</p>
+                </div>
+                <div class="manufacture-item">
+                    <div class="manufacture-icon">⚙️</div>
+                    <h3>Precision Engineering</h3>
+                    <p>Computer-controlled manufacturing processes ensure millimeter-perfect tolerances</p>
+                </div>
+                <div class="manufacture-item">
+                    <div class="manufacture-icon">🌱</div>
+                    <h3>Sustainable Process</h3>
+                    <p>Environmentally conscious manufacturing with minimal waste and renewable energy</p>
+                </div>
+                <div class="manufacture-item">
+                    <div class="manufacture-icon">🎯</div>
+                    <h3>Quality Control</h3>
+                    <p>Rigorous testing and inspection at every stage of production</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="section dark-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Revolutionary Features</h2>
+                <p>Industry-first innovations that redefine yachting</p>
+            </div>
+            <div class="features-showcase">
+                <div class="feature-item active" data-feature="tender">
+                    <h3>Tender Garage</h3>
+                    <p>Automated tender storage and deployment system</p>
+                </div>
+                <div class="feature-item" data-feature="glass">
+                    <h3>Switchable Privacy Glass</h3>
+                    <p>Smart glass technology for instant privacy control</p>
+                </div>
+                <div class="feature-item" data-feature="cabin">
+                    <h3>On-Deck Master Suite</h3>
+                    <p>Configurable owner's cabin with panoramic views</p>
+                </div>
+                <div class="feature-item" data-feature="sailing">
+                    <h3>Automated Sailing Systems</h3>
+                    <p>Push-button sail control for single-handed operation</p>
+                </div>
+            </div>
+            <div class="feature-display">
+                <div class="feature-visual" id="feature-visual">
+                    <p>Interactive Feature Demonstration</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Configuration Section -->
+    <section id="configuration" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Configure Your VMG 53</h2>
+                <p>Customize your yacht to match your vision</p>
+            </div>
+            <div class="configurator">
+                <div class="config-options">
+                    <div class="config-group">
+                        <h3>Hull Color</h3>
+                        <div class="color-options">
+                            <div class="color-option active" data-color="vmg-green" style="background: #2d5a3d;"></div>
+                            <div class="color-option" data-color="ocean-blue" style="background: #1e3a5f;"></div>
+                            <div class="color-option" data-color="platinum-silver" style="background: #8a8a8a;"></div>
+                        </div>
+                    </div>
+                    <div class="config-group">
+                        <h3>Layout Configuration</h3>
+                        <div class="layout-options">
+                            <label class="option-label">
+                                <input type="radio" name="layout" value="owner-suite" checked>
+                                <span>Full Owner's Suite</span>
+                            </label>
+                            <label class="option-label">
+                                <input type="radio" name="layout" value="expanded-salon">
+                                <span>Expanded Salon</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="config-group">
+                        <h3>Performance Package</h3>
+                        <div class="performance-options">
+                            <label class="option-label">
+                                <input type="radio" name="performance" value="standard" checked>
+                                <span>VMG 53 Standard (18 tons)</span>
+                            </label>
+                            <label class="option-label">
+                                <input type="radio" name="performance" value="regatta">
+                                <span>VMG 53 Regatta (17 tons)</span>
+                            </label>
+                            <label class="option-label">
+                                <input type="radio" name="performance" value="gp">
+                                <span>VMG 53 GP (16 tons)</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="config-preview">
+                    <div class="yacht-preview" id="yacht-preview">
+                        <p>3D Yacht Preview</p>
+                        <span class="preview-label">VMG Green - Owner's Suite - Standard</span>
+                    </div>
+                    <div class="config-summary">
+                        <h4>Your Configuration</h4>
+                        <div class="summary-item">
+                            <span>Base Price:</span>
+                            <span>$2,850,000</span>
+                        </div>
+                        <div class="summary-item">
+                            <span>Options:</span>
+                            <span>$125,000</span>
+                        </div>
+                        <div class="summary-total">
+                            <span>Estimated Total:</span>
+                            <span>$2,975,000</span>
+                        </div>
+                        <button class="btn-primary">Request Configuration</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Performance Section -->
+    <section id="performance" class="section dark-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Performance Visualizer</h2>
+                <p>Interactive polar simulation showing your yacht's capabilities</p>
+            </div>
+            <div class="performance-simulator">
+                <div class="simulator-controls">
+                    <div class="control-group">
+                        <label>Wind Speed: <span id="wind-speed-value">15</span> knots</label>
+                        <input type="range" id="wind-speed" min="5" max="35" value="15">
+                    </div>
+                    <div class="control-group">
+                        <label>Wind Angle: <span id="wind-angle-value">90</span>°</label>
+                        <input type="range" id="wind-angle" min="0" max="180" value="90">
+                    </div>
+                    <div class="control-group">
+                        <label>Configuration:</label>
+                        <select id="config-select">
+                            <option value="standard">VMG 53 Standard (18t)</option>
+                            <option value="regatta">VMG 53 Regatta (17t)</option>
+                            <option value="gp">VMG 53 GP (16t)</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="simulator-display">
+                    <div class="yacht-simulation" id="yacht-simulation">
+                        <div class="yacht-model"></div>
+                        <div class="wake-effect"></div>
+                        <div class="wind-indicator"></div>
+                    </div>
+                    <div class="polar-chart">
+                        <canvas id="polar-canvas" width="300" height="300"></canvas>
+                    </div>
+                </div>
+                <div class="performance-data">
+                    <div class="data-item">
+                        <span>Speed:</span>
+                        <span id="boat-speed">12.5 knots</span>
+                    </div>
+                    <div class="data-item">
+                        <span>Heel Angle:</span>
+                        <span id="heel-angle">15°</span>
+                    </div>
+                    <div class="data-item">
+                        <span>VMG:</span>
+                        <span id="vmg-value">8.8 knots</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Gallery</h2>
+                <p>High-resolution renders and lifestyle imagery</p>
+            </div>
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="exterior">Exterior</button>
+                <button class="filter-btn" data-filter="interior">Interior</button>
+                <button class="filter-btn" data-filter="lifestyle">Lifestyle</button>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item exterior">
+                    <div class="gallery-image"></div>
+                    <div class="gallery-overlay">
+                        <h4>Sunset Sailing</h4>
+                    </div>
+                </div>
+                <div class="gallery-item interior">
+                    <div class="gallery-image"></div>
+                    <div class="gallery-overlay">
+                        <h4>Master Suite</h4>
+                    </div>
+                </div>
+                <div class="gallery-item lifestyle">
+                    <div class="gallery-image"></div>
+                    <div class="gallery-overlay">
+                        <h4>Coastal Cruising</h4>
+                    </div>
+                </div>
+                <div class="gallery-item exterior">
+                    <div class="gallery-image"></div>
+                    <div class="gallery-overlay">
+                        <h4>Profile View</h4>
+                    </div>
+                </div>
+                <div class="gallery-item interior">
+                    <div class="gallery-image"></div>
+                    <div class="gallery-overlay">
+                        <h4>Salon Configuration</h4>
+                    </div>
+                </div>
+                <div class="gallery-item lifestyle">
+                    <div class="gallery-image"></div>
+                    <div class="gallery-overlay">
+                        <h4>Tender Operations</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section dark-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>About VMG</h2>
+                <p>Pioneering the future of luxury multihull yachting</p>
+            </div>
+            <div class="about-content">
+                <div class="about-story">
+                    <h3>Our Mission</h3>
+                    <p>VMG exists to redefine luxury yachting through innovation, empowerment, and uncompromising quality. We believe that the future of yachting lies in vessels that combine cutting-edge technology with the freedom of minimal-crew operation.</p>
+                    
+                    <h3>Our Vision</h3>
+                    <p>To create yachts that empower owners with complete autonomy while delivering unparalleled performance and luxury. Every VMG yacht represents a step toward a more sustainable, accessible, and thrilling future on the water.</p>
+                </div>
+                <div class="team-section">
+                    <h3>Leadership Team</h3>
+                    <div class="team-grid">
+                        <div class="team-member">
+                            <div class="member-photo"></div>
+                            <h4>Design Director</h4>
+                            <p>Leading innovative yacht design</p>
+                        </div>
+                        <div class="team-member">
+                            <div class="member-photo"></div>
+                            <h4>Engineering Lead</h4>
+                            <p>Advanced systems integration</p>
+                        </div>
+                        <div class="team-member">
+                            <div class="member-photo"></div>
+                            <h4>Manufacturing Director</h4>
+                            <p>Precision craftsmanship</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact Us</h2>
+                <p>Begin your VMG journey</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-form">
+                    <form id="inquiry-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Full Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email Address" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Phone Number">
+                        </div>
+                        <div class="form-group">
+                            <select required>
+                                <option value="">Inquiry Type</option>
+                                <option value="configuration">Yacht Configuration</option>
+                                <option value="pricing">Pricing Information</option>
+                                <option value="visit">Schedule Visit</option>
+                                <option value="general">General Inquiry</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Message" rows="5"></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">Send Inquiry</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <h4>Sales Office</h4>
+                        <p>Available by appointment</p>
+                        <p>sales@vmgyacht.com</p>
+                    </div>
+                    <div class="info-item">
+                        <h4>Technical Support</h4>
+                        <p>Monday - Friday, 9AM - 6PM</p>
+                        <p>support@vmgyacht.com</p>
+                    </div>
+                    <div class="info-item">
+                        <h4>Media Inquiries</h4>
+                        <p>Press and partnerships</p>
+                        <p>media@vmgyacht.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>VMG</h3>
+                    <p>Redefining the future of multihull yachting</p>
+                </div>
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h4>Yacht</h4>
+                        <a href="#yacht">Overview</a>
+                        <a href="#features">Features</a>
+                        <a href="#configuration">Configure</a>
+                    </div>
+                    <div class="link-group">
+                        <h4>Company</h4>
+                        <a href="#about">About</a>
+                        <a href="#design">Philosophy</a>
+                        <a href="#manufacture">Manufacturing</a>
+                    </div>
+                    <div class="link-group">
+                        <h4>Support</h4>
+                        <a href="#contact">Contact</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 VMG Yacht. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
